@@ -41,7 +41,7 @@ const buildPage = (array) => {
                 <h5 class="card-title bg-danger text-white p-3">${employee.getName()} - ${employee.getRole()}</h5>
                 <p class="card-text">ID: ${employee.getID()}</p>
                 <p class="card-text">Office Number: ${employee.getOfficeNumber()}</p>
-                <p class="card-text">Email:  <a href="mailto:${employee.getEmail()}">${employee.getID()}</a></p>
+                <p class="card-text">Email:  <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></p>
                 <a href="mailto:${employee.getEmail()}" class="btn btn-danger">Email Me</a>
             </div>
         </div>
@@ -55,7 +55,7 @@ const buildPage = (array) => {
                 <h5 class="card-title bg-primary text-white p-3">${employee.getName()} - ${employee.getRole()}</h5>
                 <p class="card-text">ID: ${employee.getID()}</p>
                 <p class="card-text">GitHub: <a href="https://www.github.com/${employee.getGithub()}"> ${employee.getGithub()}</a></p>
-                <p class="card-text">Email:  <a href="mailto:${employee.getEmail()}">${employee.getID()}</a></p>
+                <p class="card-text">Email:  <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></p>
                 <a href="mailto:${employee.getEmail()}" class="btn btn-primary">Email Me</a>
             </div>
         </div>
