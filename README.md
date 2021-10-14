@@ -5,6 +5,10 @@
 
 This nodejs application collects user input about the members of a team and generates an HTML page from that input. The HTML page will have team member cards with clickable links for their email and other relevant links.
 
+[Click HERE for the video walk through - sorry my mic volume is so low.](https://drive.google.com/file/d/1Hq968gkGuhVUFqM_3jAO-Pw1hR5Se7ET/view?usp=sharing)
+
+[![Click this screenshot](./img/team-profile-generator-screenshot.png)](https://drive.google.com/file/d/1Hq968gkGuhVUFqM_3jAO-Pw1hR5Se7ET/view?usp=sharing)
+
   ## Table Of Contents
 
 * [Installation](#!installation)
